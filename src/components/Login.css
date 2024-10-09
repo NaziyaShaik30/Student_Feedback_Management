@@ -1,0 +1,52 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.9); /* Light background */
+}
+
+h2 {
+    margin-bottom: 30px; /* Increased space below the heading */
+    color: #333; /* Darker color for the heading */
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; /* Make inputs fill the box */
+    width: 359px; /* Increased width for the form box */
+    border: 4px solid black; /* Black border */
+    border-radius: 9px; /* Rounded corners */
+    padding: 25px; /* Increased padding inside the box */
+    background-color: white; /* Background color for the box */
+}
+
+label {
+    margin: 20px 1 5px; /* Increased margin for labels */
+}
+
+input,
+select {
+    padding: 10px; /* Increased padding for inputs */
+    margin-bottom: 25px; /* Increased space below inputs */
+    border: 1px solid #ccc;
+    border-radius: 9px;
+}
+
+button {
+    padding: 12px; /* Increased padding for button */
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 123, 255, 0.8); /* Button color */
+    color: white;
+    transition: background-color 0.3s;
+    align-self: center;
+}
+
+button:hover {
+    background-color: rgb(9, 31, 13); /* Fully opaque on hover */
+}
